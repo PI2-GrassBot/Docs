@@ -1,0 +1,7 @@
+site_name: GrassBot
+
+nav:
+  - Home: index.md
+  - Detalhamento do Problema: detalhamento.md
+  - Requisitos: requisitos.md
+  - Arquitetura: arquitetura.md
