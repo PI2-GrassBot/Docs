@@ -4,8 +4,11 @@ site_url: https://sitename.example
 theme:
   name: material
   palette:
-    scheme: slate
     primary: green
+    accent: light green
+  font:
+    text: Roboto
+    code: Roboto Mono
 nav:
   - Home: index.md
   - Detalhamento do Problema: detalhamento.md
