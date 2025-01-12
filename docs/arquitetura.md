@@ -3,7 +3,7 @@
 ## Introdução
 A arquitetura apresentada na imagem abaixo consiste em um sistema de corte de grama automatizado, que funciona de maneira autônoma, detectando obstáculos, otimizando rotas e garantindo um corte preciso sem intervenção humana direta. O sistema é composto por tres serviços principais: a interface de usuário, a API de comunicação e o simulador de ambiente.
 
-[![Arquitetura](../assets/arquitetura.jpg)](../assets/arquitetura.jpg)
+[![Arquitetura](https://raw.githubusercontent.com/PI2-GrassBot/Docs/refs/heads/main/assets/arquitetura.jpg)](https://raw.githubusercontent.com/PI2-GrassBot/Docs/refs/heads/main/assets/arquitetura.jpg)
 
 ## Componentes
 
@@ -19,3 +19,13 @@ A API de comunicação é responsável por receber as requisições da interface
 O simulador de Ambiente é composto por três módulos principais: O Core, o Mock de Sensores, e o Simulador de Movimento. O Core é responsável por gerenciar a lógica de simulação, como a detecção de obstáculos e o cálculo de rotas, funcionando como um microcontrolador virtual. O Mock de Sensores simula a leitura de sensores de proximidade e obstáculos, fornecendo dados para o Core. O Simulador de Movimento, implementado com Pygame, é responsável por exibir a simulação em tempo real, permitindo visualizar o movimento do cortador de grama no ambiente virtual.
 
 <!-- PRINT DO SIMULADOR AQUI -->
+
+
+## Diagrama de Classes
+
+O diagrama de classes apresenta a estrutura do GrassBot, mostrando as classes e suas relações.
+
+
+### Diagrama de Classes V1
+
+[![Diagrama de Classes](https://raw.githubusercontent.com/PI2-GrassBot/Docs/refs/heads/main/assets/uml.png)](https://raw.githubusercontent.com/PI2-GrassBot/Docs/refs/heads/main/assets/uml.png)
