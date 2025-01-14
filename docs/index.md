@@ -3,6 +3,9 @@
 ## 🚀 O que é o GrassBot?
 O **GrassBot** é um cortador de grama autônomo inteligente projetado para manter gramados sempre bem cuidados sem intervenção humana. Ele utiliza algoritmos para navegação, detecção de obstáculos e otimização de rota, proporcionando um corte eficiente e preciso.
 
+
+![GrassBot](https://raw.githubusercontent.com/PI2-GrassBot/Docs/refs/heads/main/assets/simulation.gif)
+
 ---
 
 ## 🔥 Principais Funcionalidades
@@ -10,7 +13,6 @@ O **GrassBot** é um cortador de grama autônomo inteligente projetado para mant
 ✅ **Detecção de Obstáculos** - Sensores simulados identificam obstáculos e recalculam a trajetória.  
 ✅ **Simulação** - Emulador permite testar o software antes da implementação física.  
 ✅ **Interface Inteligente** - Controle intuitivo para configurar área de corte e visualizar status.  
-✅ **Eficiência Energética** - Algoritmos otimizados para reduzir consumo e prolongar autonomia.  
 
 ---
 
@@ -23,11 +25,9 @@ O **GrassBot** é um cortador de grama autônomo inteligente projetado para mant
 ## 📊 Especificações Técnicas
 | Característica           | Descrição                              |
 |-------------------------|--------------------------------------|
-| 🚀 **Software**        |          |
-| 🖥 **Simulação**      |         |
-| 📡 **Sensores**       |          |
+| 🖥 **Simulação**      |  Implementação de ambiente com Pygame       |
+| 📡 **Sensores**       |   Mock de Sensores Ultrassônicos       |
 | ⚙ **Navegação**      | Algoritmo de pathfinding otimizado  |
-| 🔋 **Eficiência**     | Consumo de energia reduzido       |
 
 ---
 
@@ -43,13 +43,23 @@ O software conta com um **emulador integrado**, permitindo testar os algoritmos 
 
 ```sh
 # Clone o repositório
-$ git clone URL
+$ git clone https://github.com/PI2-GrassBot/GrassBot.git
 
-# Acesse a pasta do projeto
-$ cd grassbot
+# Acesse a pasta do ambiente de simulaçao
+$ cd src/simulation
 
 # Execute o simulador
 $ python emulator.py
+
+# Acesse a pasta do sistema de controle para usuário
+$ cd src/api
+
+# Execute a API
+
+$ python api.py
+
+# Acesse o endereco http://localhost:5000/ no seu navegador para acessar a interface de controle
+
 ```
 
 ---
