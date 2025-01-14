@@ -1,4 +1,4 @@
-# Aruiteturara
+# Aruitetura
 
 ## Introdução
 A arquitetura apresentada na imagem abaixo consiste em um sistema de corte de grama automatizado, que funciona de maneira autônoma, detectando obstáculos, otimizando rotas e garantindo um corte preciso sem intervenção humana direta. O sistema é composto por tres serviços principais: a interface de usuário, a API de comunicação e o simulador de ambiente.
@@ -13,6 +13,18 @@ A interface de usuário é responsável por permitir a interação com o sistema
 ### API de Comunicação
 
 A API de comunicação é responsável por receber as requisições da interface de usuário e repassá-las para o simulador de ambiente. Ela é implementada em Python com o uso do FastAPI, um framework web de alto desempenho.
+
+Componentes da API:
+
+* Routers: Os routers organizam os diferentes endpoints em módulos, facilitando a manutenção e escalabilidade do código.
+* Models: Definem a estrutura dos dados trocados entre a interface e a API. Esses modelos são usados para validação e serialização/deserialização de dados.
+* JSON: Os dados processados pela API geralmente são armazenados ou trocados em formato JSON, um padrão leve e amplamente suportado.
+
+Funcionalidades Principais da API:
+
+* Receber solicitações da Interface de Usuário.
+* Processar e validar os dados de entrada usando os Models.
+* Disponibilizar as solicitação para o Core do Simulador de Ambiente.
 
 ### Simulador de Ambiente
 
