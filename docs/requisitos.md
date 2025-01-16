@@ -1,7 +1,7 @@
 # Requisitos
 
 ## Introdução
-Este documento tem como objetivo apresentar os requisitos funcionais e não funcionais do projeto GrassBot. O sistema deve ser capaz de identificar a área de corte, percorrer a área delimitada seguindo um algoritmo de cobertura eficiente, detectar obstáculos em tempo real e recalcular a rota para evitá-los. O software deve permitir ajuste da altura de corte e velocidade de deslocamento, possuir uma interface para ligar e desligar, iniciar apenas se a bateria estiver acima de 80% e permitir a inserção de obstáculos em tempo real.
+Este documento tem como objetivo apresentar os requisitos funcionais e não funcionais do projeto GrassBot. O sistema deve ser capaz de identificar a área de corte, percorrer a área delimitada seguindo um algoritmo de cobertura eficiente, detectar obstáculos em tempo real e recalcular a rota para evitá-los. O software deve permitir ajuste da altura de corte e velocidade de deslocamento, possuir uma interface para ligar e desligar, iniciar apenas se a bateria estiver acima de 80% e permitir a inserção de obstáculos em tempo real. Estes requisitos foram elicitados com base nas necessidades identificadas no [benchmarking](benchmark.md), no [detalhamento do problema](detalhamento.md) e brainstorming da equipe.
 
 ## Requisitos Funcionais
 | Código  | Descrição |

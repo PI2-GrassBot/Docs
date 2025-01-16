@@ -12,5 +12,6 @@ theme:
 nav:
   - Home: index.md
   - Detalhamento do Problema: detalhamento.md
+  - Benchmark: benchmark.md
   - Requisitos: requisitos.md
   - Arquitetura: arquitetura.md
