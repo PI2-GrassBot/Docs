@@ -27,6 +27,9 @@ O modelo sugerido para utilizar é o sensor TCS230, que é capaz de detectar uma
 
 ## Posicionamento dos Sensores
 
-Os sensores serão posicionados estrategicamente no GrassBot para garantir uma cobertura eficiente do ambiente. Durante a simulacão, os sensores serão emulados na parte frontal do robô, permitindo a detecção de obstáculos e a identificação de áreas de corte.
+Os sensores serão posicionados estrategicamente no GrassBot para garantir uma cobertura eficiente do ambiente. Durante a simulacão, os sensores serão emulados da seguinte maneira:
+- **Sensores Ultrassônicos:** Serão simulados em quatro direções (frente, trás, esquerda e direita) a partir do centro do cortador de grama. Eles detectarão obstáculos em um raio de 30 pixels.
+
+- **Sensores de Cor:** Serão simulados na parte inferior do cortador de grama, apontados para o solo a frente do robô. Eles identificarão a cor da grama e outras áreas de interesse.
 
 

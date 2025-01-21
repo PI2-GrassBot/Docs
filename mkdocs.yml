@@ -11,8 +11,10 @@ theme:
     code: Roboto Mono
 nav:
   - Home: index.md
+  - Abordagem V2: abordagemv2.md
   - Detalhamento do Problema: detalhamento.md
   - Benchmark: benchmark.md
   - Requisitos: requisitos.md
   - Arquitetura: arquitetura.md
   - Sensoriamento": sensoriamento.md
+
