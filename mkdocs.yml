@@ -11,7 +11,7 @@ theme:
     code: Roboto Mono
 nav:
   - Home: index.md
-  - Como Rodar: comoRodar.md
+  - Como Executar: comoRodar.md
   - Abordagem V1: abordagemv1.md
   - Abordagem V2: abordagemv2.md
   - Detalhamento do Problema: detalhamento.md

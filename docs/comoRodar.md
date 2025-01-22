@@ -1,6 +1,6 @@
 # Instruções de Run
 
-Para rodar o projeto, siga os passos abaixo:
+Para executar o projeto, siga os passos abaixo:
 
 ## Ambiente
 

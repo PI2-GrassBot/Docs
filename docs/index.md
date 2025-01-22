@@ -39,28 +39,7 @@ O **GrassBot** é um cortador de grama autônomo inteligente projetado para mant
 ---
 
 ## 📌 Como Testar o GrassBot?
-O software conta com um **emulador integrado**, permitindo testar os algoritmos antes da implementação real. Para executar a simulação, basta rodar o código Python e visualizar o movimento do GrassBot no ambiente virtual.
-
-```sh
-# Clone o repositório
-$ git clone https://github.com/PI2-GrassBot/GrassBot.git
-
-# Acesse a pasta do ambiente de simulaçao
-$ cd src/simulation
-
-# Execute o simulador
-$ python emulator.py
-
-# Acesse a pasta do sistema de controle para usuário
-$ cd src/api
-
-# Execute a API
-
-$ python api.py
-
-# Acesse o endereco http://localhost:5000/ no seu navegador para acessar a interface de controle
-
-```
+O software conta com um **emulador integrado**, permitindo testar os algoritmos antes da implementação real. Para executar a simulação basta seguir as [instruções de run](comoRodar.md).
 
 ---
 
@@ -71,8 +50,8 @@ $ python api.py
 
 <img src="https://github.com/caiozim112.png" alt="drawing" width="200"/>
 
-- [GitHub](github.com/eduardomr)
-- Matricula: #
+- [GitHub](github.com/caiozim112)
+- Matricula: 200057227
 
 ### Eduardo Maia Rezende
 

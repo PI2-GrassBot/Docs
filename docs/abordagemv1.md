@@ -146,7 +146,7 @@ A classe `Gui` gerencia a interface gráfica do sistema utilizando o Pygame. Ela
 O foco de **`Sensors`** é **identificar os vizinhos diretos de um nó em uma grade ou matriz**, considerando os movimentos básicos em quatro direções: **cima**, **baixo**, **esquerda** e **direita**. Esses vizinhos representam os nós adjacentes que podem ser acessados a partir da posição atual.
 
 ### **get_sensors.py**
-A função geralmente é usada em algoritmos de busca em grafos, como **DFS (Depth-First Search)** ou **BFS (Breadth-First Search)**, para explorar caminhos ou estados vizinhos em problemas de navegação, labirintos ou grade de obstáculos.
+A função é utilizada no algoritmo de busca em grafos utilizado para mapear o ambiente e calcular a rota, neste caso o **DFS (Depth-First Search)** , para explorar caminhos ou estados vizinhos em problemas de navegação, labirintos ou grade de obstáculos.
 
 
 ### Interface (`Ui`)
