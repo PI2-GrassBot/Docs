@@ -40,6 +40,10 @@ pip install -r requirements.txt
 
 ## abordagemV1
 
+```sh
+cd abordagemV1
+```
+
 ### simulador
 
 ```sh
@@ -62,6 +66,10 @@ python src/ui/interface.py
 Será aberta uma janela com os controles de power, velocidade e altura da grama do GrassBot no endereço http://localhost:5000/
 
 ## abordagemV2
+
+```sh
+cd abordagemV2
+```
 
 ### simulador
 ```sh
