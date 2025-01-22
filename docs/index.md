@@ -6,8 +6,8 @@ O **GrassBot** é um cortador de grama autônomo inteligente projetado para mant
 
 ![GrassBot](https://raw.githubusercontent.com/PI2-GrassBot/Docs/refs/heads/main/assets/simulation.gif)
 
-![Slides Apresentação 1](https://github.com/PI2-GrassBot/Docs/blob/main/assets/grassbot_apresentacao1.pdf)
-![Slides Apresentação 2](https://github.com/PI2-GrassBot/Docs/blob/main/assets/grassbot_apresentacao2.pdf)
+[Slides Apresentação 1](https://github.com/PI2-GrassBot/Docs/blob/main/assets/grassbot_apresentacao1.pdf)
+[Slides Apresentação 2](https://github.com/PI2-GrassBot/Docs/blob/main/assets/grassbot_apresentacao2.pdf)
 
 ---
 
